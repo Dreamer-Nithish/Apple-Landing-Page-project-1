@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color:rgb(244, 244, 244);
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+
+li {
+    list-style:none;
+    margin-left: 20px;  
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding-top: 40px;
+}
+
+#banner_one {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#banner_two {
+    background-image: url(./vision\ pro\ girl\ image.jpg);
+    background-size:cover;
+    height: 75vh;
+    background-position-y: -100px;
+    padding-top: 340px;
+    background-repeat: no-repeat;
+}
+#banner_three {
+    margin-top: 50px;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.banner a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
